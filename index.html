@@ -110,9 +110,9 @@
             <div class="container select-container">
                 <h1>Get Your Ticket Online</h1>
                 <div class="select-location">
-                  <!-- <h4 style="color: black;">Select Your Destination</h4> -->
                   <form action="">
-                        <!-- <label for="">Vechicle</label> -->
+                    <!-- <h4 style="color: black;">Select Your Destination</h4> -->
+                        <label for=""> <i class="fa-solid fa-bus-simple" style="margin-left:10px"></i> Vechicle</label>
                         <select name="" id="">
                             <option value="" selected="selected">All</option>
                             <option value="">Bus</option>
@@ -121,14 +121,14 @@
                             <option value="">Micro</option>
                         </select>
 
-                        <!-- <label for="">From</label> -->
+                        <label for=""><i class="fa-solid fa-house"></i> From</label>
                         <input type="text" placeholder='From' value="Kathmandu" onClick="this.select();">
     
-                        <!-- <label for="">To</label> -->
+                        <label for=""><i class="fa-solid fa-location-arrow"></i> To</label>
                         <input type="text" placeholder='To' value="Biratnagar" onClick="this.select();"> 
                         
-                        <!-- <label for="">Date</label> -->
-                        <input type="date">
+                        <label for=""> <i class="fa-solid fa-calendar-days"></i></i> Date</label>
+                        <input type="date" class="data-input">
 
                         <button>Filter</button>
                     </form>
