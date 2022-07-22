@@ -104,13 +104,11 @@ li{
     position: relative;
 }
 .select-container{
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
 }
 .select-location{
-    /* background-color: #02122c; */
     background-color: white;
-    /* background-color: var(--seondary-color); */
     height: 200px;
     border-radius: 5px;
     position: absolute;
@@ -123,6 +121,7 @@ li{
 }
 .select-container h1{
     color: #6706A1;
+    text-align: center;
 }
 .select-location input,select{
     height: 50px;
@@ -321,6 +320,9 @@ input[type=range]::-webkit-slider-thumb {
 
 .select-container{
     display: block;
+}
+.select-location{
+    width: 90%;
 }
 
 .table thead{
